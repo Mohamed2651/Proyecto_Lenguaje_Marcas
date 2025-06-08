@@ -23,7 +23,7 @@ El proyecto se estructura en carpetas:
 
 ## 📷 Vista previa
 
-![Captura del proyecto](ruta/a/una/captura.jpg) *(opcional)*
+![Captura del proyecto](/img/VistaFinal.png) *(opcional)*
 
 ## 👨‍💻 Autor
 
