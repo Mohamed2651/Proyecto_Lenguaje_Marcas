@@ -10,16 +10,21 @@
 
 <body>
     <header class="item header">
+
+            <div class="carrito cart-container">
+            <h2 id="cart-count">0</h2> <img src="../img/carrito-compra.png" alt="Carrito compra">
+            </div>
         <nav class="menu">
             <ul>
                 <li><a href="../src/sobre.html">Sobre</a></li>
-                <li><a href="main.html">Productos</a></li>
-                <li><a href="#">Páginas</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="https://github.com/Mohamed2651">GitHub</a></li>
                 <li><a href="../src/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="item main">
+    
         <section class="introduction">
             <br><br>
             <h1>¡Bienvenido a nuestra tienda de hardware!</h1>
@@ -34,9 +39,22 @@
                 hardware comienza aquí!</p>
         </section>
 
-        <section class="productos">
+        <section class="productos" id="productos">
             <h2>Nuestros Productos</h2>
-            <div class="product-grid">
+            <div class="productos-flex" >
+                
+                <div class="item-producto">
+                    <img src="../img/productos/grafica.png" alt="Procesasador i9">
+                    <h3>Procesador Intel Core Ultra 9 285K 3.2/5.7GHz Box</h3>
+                    <p class="price">399.99€</p>
+                    <button>Añadir al Carrito</button>
+                </div>
+                    <div class="item-producto">
+                        <img src="../img/productos/grafica.png" alt="Placa base MSI B650">
+                        <h3>Placa Base MSI MAG B650 TOMAHAWK WIFI</h3>
+                        <p class="price">399.99€</p>
+                        <button>Añadir al Carrito</button>
+                    </div>
                 <div class="item-producto">
                     <img src="../img/productos/grafica.png" alt="Tarjeta Gráfica ASUS">
                     <h3>Tarjeta Gráfica ASUS Dual GeForce RTX 4060 V2 OC Edition 8GB GDDR6 DLSS3</h3>
@@ -101,9 +119,9 @@
         <div class="footer-column">
         <h3>Contacto</h3>
         <ul>
-            <li><i class="fas fa-map-marker-alt"></i> Dirección: Avd. Juan Gregoria 34, bajo</li>
-            <li><i class="fas fa-phone"></i> Teléfono: +34 123 456 789</li>
-            <li><i class="fas fa-envelope"></i> Email: tuhardwareonline@gmail.com</li>
+            <li> Dirección: Avd. Juan Gregoria 34, bajo</li>
+            <li> Teléfono: +34 123 456 789</li>
+            <li> Email: tuhardwareonline@gmail.com</li>
         </ul>
     </div>
     <div class="footer-column">
@@ -118,6 +136,7 @@
         <p>MOHAMMAD SHAHIN 1ºDAM 2025 Tu Tienda de Hardware Online</p>
     </div>
     </footer>
+    <script src="../src/index.js"></script>
 </body>
 
 </html>
